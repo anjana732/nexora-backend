@@ -67,11 +67,11 @@ public class User {
         this.timezone = timezone;
     }
 
-    public void updateprofilePicture(String profilePicture){
+    public void updateProfilePicture(String profilePicture){
         this.profilePicture = profilePicture;
     }
 
-    public void updateLastloginAt(){
+    public void updateLastLoginAt(){
         this.lastLoginAt = Instant.now();
     }
 
